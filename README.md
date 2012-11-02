@@ -1,6 +1,9 @@
+# ChesSMS
+
 ChesSMS is an application that lets you play Chess over SMS, powered by
 [Twilio](http://www.twilio.com/).
 
+![screenshot](https://raw.github.com/twilio/chessms/master/priv/static/screenshot.png)
 
 ## Dependencies
 Erlang/OTP R15B01 (may work on older versions)
