@@ -1,0 +1,24 @@
+{application, chessms_server, [
+    {description, "HTTP Server for ChesSMS"},
+        {vsn, "0.0.1"},
+        {modules, []},
+        {registered, [chessms_server]},
+        {applications, [
+            kernel,
+            stdlib,
+            %mnesia,
+            xmerl,
+            cowboy
+                ]},
+        {mod, {chessms_server, []}},
+        {env, [
+            {pools, [
+                {engine_pool, [
+                    {size, 5},
+                    {max_overflow, 15}
+                ], [
+                    {engine_path, "priv/bin/stockfish"}
+                ]}
+            ]}
+        ]}
+    ]}.
