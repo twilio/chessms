@@ -1,7 +1,8 @@
 # ChesSMS
 
 ChesSMS is an application that lets you play Chess over SMS, powered by
-[Twilio](http://www.twilio.com/).
+[Twilio](http://www.twilio.com/). A blog about it can be read
+[here](http://www.twilio.com/engineering/2012/11/08/adventures-in-unicode-sms).
 
 ![screenshot](https://raw.github.com/twilio/chessms/master/priv/static/screenshot.png)
 
